@@ -50,6 +50,14 @@ c.title <- "Washington Hike"
 c.subtitle <- "Avarage elevation gain of trials in Whashington regions. 
 Color gradient repesents the avarage rating of trails."
 
+bar.pallete <- "ggthemes::Classic Area-Brown"
+paletteer_c("ggthemes::Classic Area-Brown", 10)
+
+pick.color <- paletteer_c("grDevices::Red-Yellow"
+            , 10)
+
+text.color <- col.10[1]#pick.color[5]
+
 # Chart
 windows(12,7)
 hike_regions %>%
@@ -57,7 +65,7 @@ hike_regions %>%
   ggplot( aes(x=name, y=mean.gain,  fill = mean.rating)) +
   geom_bar(stat="identity") +
   ylim(0,2500) +
-  scale_fill_paletteer_c("ggthemes::Classic Orange", ) +
+  scale_fill_paletteer_c(bar.pallete) +
   labs(fill = "Average Trial Rating") +
   xlab("") +
   coord_flip() +
@@ -65,24 +73,24 @@ hike_regions %>%
           subtitle = c.subtitle) +
   theme_bw() +
   theme(
-    plot.title = element_text(color = "white", 
+    plot.title = element_text(color = text.color, 
                          family = "serif", 
                          size = 26, 
                          hjust = 0),
-    plot.subtitle = element_text(color = "white", 
+    plot.subtitle = element_text(color = text.color, 
                                  family = "serif", 
                                  size = 15, 
                                  hjust = 0),
-    axis.ticks = element_line(color = "white"),
-    axis.text = element_text(color = "white", family = "sans", size = 11),
+    axis.ticks = element_line(color = text.color),
+    axis.text = element_text(color = text.color, family = "sans", size = 11),
     plot.background = element_rect(fill = col.back),
     panel.background = element_rect(fill = col.back),
     legend.background = element_rect(fill = col.back),
-    legend.title = element_text(color = "white", 
+    legend.title = element_text(color = text.color, 
                                 family = "sans", 
                                 size = 10,  
                                 face = "bold"),
-    legend.text = element_text(color = "white",
+    legend.text = element_text(color = text.color,
                                family = "sans", 
                                size = 9, 
                                face = "bold"),
