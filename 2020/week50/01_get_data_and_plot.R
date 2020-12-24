@@ -119,7 +119,7 @@ stat <- ggplot(df.plot,
 
 
 
-# Organaize data to map plot ----------------------------------------------
+# Organize data to map plot ----------------------------------------------
 
 #data
 names.country <- tibble(country = latin.america$admin)
