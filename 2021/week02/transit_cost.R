@@ -58,7 +58,8 @@ ggplot(transit) +
   labs(x = "Length of the line (Km)", 
        y = "Cost / km (Millions USD)",
        title = "Cost of transit projects in Americas",
-       subtitle = sub.txt) +
+       subtitle = sub.txt,
+       caption = "@avrodrigues_ | Transit Costs Project | #TidyTuesday week 2 2021") +
   scale_x_log10(n.breaks = 8) +
   theme_bw() +
   theme(legend.position = 'none', 
