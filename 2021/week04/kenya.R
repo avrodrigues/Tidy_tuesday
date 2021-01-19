@@ -30,14 +30,12 @@ kenya_sf <- st_as_sf(kenya)
 africa_sf <- st_as_sf(africa)
 
 # dir.create(here("2021", "week04"))
-# data
+
+# Load data ---------------------------------------------------------------
+
 gender <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-19/gender.csv')
 crops <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-19/crops.csv')
 households <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-19/households.csv')
-
-other_crops <- V4_T2.22
-
-all_crops <- left_join(other_crops, crops)
 
 
 k_crops <-
@@ -54,7 +52,6 @@ k_crops <-
 
 
 kenya_sf$county <- toupper(str_replace_all(kenya_sf$county, "[:punct:]", " "))
-
 kenya_sf_crop <- left_join(kenya_sf, k_crops)
 
 
@@ -79,6 +76,10 @@ crop.col <- data.frame(
     
 )
 
+
+# Set theme ---------------------------------------------------------------
+
+
 setings <- list( theme_void(),
     theme(plot.background = element_rect(fill = plot.bg, 
                                          color = NA),
@@ -95,6 +96,8 @@ setings <- list( theme_void(),
 )
 
 
+# Maps for each crop ------------------------------------------------------
+
 # Tea
 k_tea <- 
 ggplot(kenya_sf_crop) +
@@ -106,8 +109,6 @@ ggplot(kenya_sf_crop) +
                       n.breaks = 8) +
   labs(title = "Tea") +
   setings
-
-
 
 # Coffee
 k_coffee <- 
@@ -205,6 +206,10 @@ k_miraa <-
   labs(title = "Khat (Miraa)") +
   setings
  
+
+
+# Chart crops -------------------------------------------------------------
+
 crop_chart <- plot_grid(k_avocado, k_cashew, k_citrus,
                         k_coconut, k_coffee, k_macadamia,
                         k_mangoo, k_miraa, k_tea,
@@ -212,6 +217,7 @@ crop_chart <- plot_grid(k_avocado, k_cashew, k_citrus,
 
 k.col <- ifelse(africa_sf$sovereignt == "Kenya", "#CC0101", "grey30")
 
+# Africa
 kenya_map <- 
 ggplot(africa_sf) +
   geom_sf(fill = k.col, color = "grey70") +
@@ -220,6 +226,10 @@ ggplot(africa_sf) +
 
 description <- "Size of the population farming 
 permanent crops by type and county." 
+
+
+# Graph -------------------------------------------------------------------
+
 
 crop_graph <- 
 ggdraw(crop_chart) +
@@ -251,6 +261,10 @@ ggdraw(crop_chart) +
     linetype = 3, col = "grey90"
   ) 
   
+
+
+# Save  -------------------------------------------------------------------
+
 
 ggsave(here("2021", "week04", "kenya_crops.png"),
        crop_graph,
