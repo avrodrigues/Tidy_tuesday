@@ -147,7 +147,7 @@ k_citrus <-
   setings
 
 # Mango 
-k_mangoo <- 
+k_mango <- 
   ggplot(kenya_sf_crop) +
   geom_sf(aes(fill = Mango), color = pol.border) +
   scale_fill_gradient(low = crop.col$low.base,
@@ -155,7 +155,7 @@ k_mangoo <-
                       na.value = "transparent",
                       name = "Pop. (k)",
                       n.breaks = 10) +
-  labs(title = "Mangoo") +
+  labs(title = "Mango") +
   setings
 
 # Coconut 
@@ -233,7 +233,7 @@ permanent crops by type and county."
 
 crop_graph <- 
 ggdraw(crop_chart) +
-  labs(caption = "@avrodriges_ | #TidyTuesday | Source: rKenyaCensus") +
+  labs(caption = "@avrodrigues_ | #TidyTuesday | Source: rKenyaCensus") +
   setings +
   theme(plot.margin = margin(250,10,50,10),
         plot.caption = element_text(color = text.col,
