@@ -212,7 +212,7 @@ k_miraa <-
 
 crop_chart <- plot_grid(k_avocado, k_cashew, k_citrus,
                         k_coconut, k_coffee, k_macadamia,
-                        k_mangoo, k_miraa, k_tea,
+                        k_mango, k_miraa, k_tea,
                         nrow = 3, ncol = 3)
 
 k.col <- ifelse(africa_sf$sovereignt == "Kenya", "#CC0101", "grey30")
