@@ -23,8 +23,8 @@ library(rKenyaCensus)
 # Load maps ---------------------------------------------------------------
 
 africa <- ne_countries(continent = "Africa")
-# Kenya county: https://data.humdata.org/dataset/47-counties-of-kenya
-kenya <- readOGR(here("2021", "week04", "Shapefile", "ke_county.shp"))
+# Kenya county
+kenya <- raster::getData('GADM', country='KEN', level=1) 
 crs(kenya) <- crs(africa)
 kenya_sf <- st_as_sf(kenya)
 africa_sf <- st_as_sf(africa)
@@ -51,7 +51,7 @@ k_crops <-
          Miraa = `Khat (Miraa)`)
 
 
-kenya_sf$county <- toupper(str_replace_all(kenya_sf$county, "[:punct:]", " "))
+kenya_sf$county <- toupper(str_replace_all(kenya_sf$NAME_1, "[:punct:]", " "))
 kenya_sf_crop <- left_join(kenya_sf, k_crops)
 
 
