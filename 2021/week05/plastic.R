@@ -372,7 +372,7 @@ chart <-
             x = 0.20, y  = 1.15, 
             hjust = 0.5,
             vjust = 0.5)  +
-draw_text(c("Averange per Volunteer", "Plastic Type"),
+draw_text(c("Average per Volunteer", "Plastic Type"),
            x = c(0.21, 0.65),
            y = rep(1.23, 2),
            family = sans) +
