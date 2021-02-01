@@ -4,6 +4,7 @@ My participation on [#TidyTuesday challenge](https://github.com/rfordatascience/
 ---
 
 Twitter: [@avrodrigues_](https://twitter.com/avrodrigues_)
+
 Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 
 ---
@@ -14,10 +15,13 @@ Plastic polltion found by volunteers in each continent
 
 ![Break Free From Plastic](2021/week05/plastic.png)
 
+---
+
 ### Week 04 - rKenyaCensus package
 People farming permanent crops in Kenya
 
 ![rKenyaCensus](2021/week04/kenya_crops.png)
+---
 
 ### Week 03 - Tate Art Museum
 Top 5 artists and countries in the Tate's artwork collection
