@@ -4,7 +4,7 @@ My participation on [#TidyTuesday challenge](https://github.com/rfordatascience/
 ---
 
 Twitter: [@avrodrigues_](https://twitter.com/avrodrigues_)
-Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/
+Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 
 ---
 
