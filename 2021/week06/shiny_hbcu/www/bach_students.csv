@@ -1,0 +1,329 @@
+"year","race","total","standard_errors"
+1910,"Total",2.7,NA
+1910,"White",NA,NA
+1910,"Black",NA,NA
+1910,"Hispanic",NA,NA
+1910,"Asian",NA,NA
+1910,"Pacific Islander",NA,NA
+1910,"Indigenous",NA,NA
+1910,"Two or more race",NA,NA
+1920,"Total",3.3,NA
+1920,"White",NA,NA
+1920,"Black",NA,NA
+1920,"Hispanic",NA,NA
+1920,"Asian",NA,NA
+1920,"Pacific Islander",NA,NA
+1920,"Indigenous",NA,NA
+1920,"Two or more race",NA,NA
+1930,"Total",3.9,NA
+1930,"White",NA,NA
+1930,"Black",NA,NA
+1930,"Hispanic",NA,NA
+1930,"Asian",NA,NA
+1930,"Pacific Islander",NA,NA
+1930,"Indigenous",NA,NA
+1930,"Two or more race",NA,NA
+1940,"Total",4.6,NA
+1940,"White",4.9,NA
+1940,"Black",1.3,NA
+1940,"Hispanic",NA,NA
+1940,"Asian",NA,NA
+1940,"Pacific Islander",NA,NA
+1940,"Indigenous",NA,NA
+1940,"Two or more race",NA,NA
+1950,"Total",6.2,NA
+1950,"White",6.6,NA
+1950,"Black",2.2,NA
+1950,"Hispanic",NA,NA
+1950,"Asian",NA,NA
+1950,"Pacific Islander",NA,NA
+1950,"Indigenous",NA,NA
+1950,"Two or more race",NA,NA
+1960,"Total",7.7,NA
+1960,"White",8.1,NA
+1960,"Black",3.5,NA
+1960,"Hispanic",NA,NA
+1960,"Asian",NA,NA
+1960,"Pacific Islander",NA,NA
+1960,"Indigenous",NA,NA
+1960,"Two or more race",NA,NA
+1970,"Total",11,NA
+1970,"White",11.6,NA
+1970,"Black",6.1,NA
+1970,"Hispanic",NA,NA
+1970,"Asian",NA,NA
+1970,"Pacific Islander",NA,NA
+1970,"Indigenous",NA,NA
+1970,"Two or more race",NA,NA
+1975,"Total",13.9,NA
+1975,"White",14.9,NA
+1975,"Black",6.4,NA
+1975,"Hispanic",6.6,NA
+1975,"Asian",NA,NA
+1975,"Pacific Islander",NA,NA
+1975,"Indigenous",NA,NA
+1975,"Two or more race",NA,NA
+1980,"Total",17,-0.16
+1980,"White",18.4,-0.18
+1980,"Black",7.9,-0.44
+1980,"Hispanic",7.6,-0.63
+1980,"Asian",NA,NA
+1980,"Pacific Islander",NA,NA
+1980,"Indigenous",NA,NA
+1980,"Two or more race",NA,NA
+1985,"Total",19.4,-0.16
+1985,"White",20.8,-0.19
+1985,"Black",11.1,-0.47
+1985,"Hispanic",8.5,-0.55
+1985,"Asian",NA,NA
+1985,"Pacific Islander",NA,NA
+1985,"Indigenous",NA,NA
+1985,"Two or more race",NA,NA
+1986,"Total",19.4,-0.16
+1986,"White",20.9,-0.19
+1986,"Black",10.9,-0.47
+1986,"Hispanic",8.4,-0.53
+1986,"Asian",NA,NA
+1986,"Pacific Islander",NA,NA
+1986,"Indigenous",NA,NA
+1986,"Two or more race",NA,NA
+1987,"Total",19.9,-0.16
+1987,"White",21.4,-0.19
+1987,"Black",10.8,-0.46
+1987,"Hispanic",8.6,-0.53
+1987,"Asian",NA,NA
+1987,"Pacific Islander",NA,NA
+1987,"Indigenous",NA,NA
+1987,"Two or more race",NA,NA
+1988,"Total",20.3,-0.16
+1988,"White",21.8,-0.19
+1988,"Black",11.2,-0.46
+1988,"Hispanic",10,-0.55
+1988,"Asian",NA,NA
+1988,"Pacific Islander",NA,NA
+1988,"Indigenous",NA,NA
+1988,"Two or more race",NA,NA
+1989,"Total",21.1,-0.16
+1989,"White",22.8,-0.19
+1989,"Black",11.7,-0.46
+1989,"Hispanic",9.9,-0.53
+1989,"Asian",NA,NA
+1989,"Pacific Islander",NA,NA
+1989,"Indigenous",NA,NA
+1989,"Two or more race",NA,NA
+1990,"Total",21.3,-0.16
+1990,"White",23.1,-0.19
+1990,"Black",11.3,-0.45
+1990,"Hispanic",9.2,-0.51
+1990,"Asian",NA,NA
+1990,"Pacific Islander",NA,NA
+1990,"Indigenous",NA,NA
+1990,"Two or more race",NA,NA
+1991,"Total",21.4,-0.16
+1991,"White",23.3,-0.19
+1991,"Black",11.5,-0.45
+1991,"Hispanic",9.7,-0.51
+1991,"Asian",NA,NA
+1991,"Pacific Islander",NA,NA
+1991,"Indigenous",NA,NA
+1991,"Two or more race",NA,NA
+1992,"Total",21.4,-0.16
+1992,"White",23.2,-0.19
+1992,"Black",11.9,-0.45
+1992,"Hispanic",9.3,-0.49
+1992,"Asian",NA,NA
+1992,"Pacific Islander",NA,NA
+1992,"Indigenous",NA,NA
+1992,"Two or more race",NA,NA
+1993,"Total",21.9,-0.16
+1993,"White",23.8,-0.19
+1993,"Black",12.2,-0.45
+1993,"Hispanic",9,-0.48
+1993,"Asian",NA,NA
+1993,"Pacific Islander",NA,NA
+1993,"Indigenous",NA,NA
+1993,"Two or more race",NA,NA
+1994,"Total",22.2,-0.16
+1994,"White",24.3,-0.19
+1994,"Black",12.9,-0.46
+1994,"Hispanic",9.1,-0.45
+1994,"Asian",NA,NA
+1994,"Pacific Islander",NA,NA
+1994,"Indigenous",NA,NA
+1994,"Two or more race",NA,NA
+1995,"Total",23,-0.16
+1995,"White",25.4,-0.19
+1995,"Black",13.3,-0.47
+1995,"Hispanic",9.3,-0.45
+1995,"Asian",NA,NA
+1995,"Pacific Islander",NA,NA
+1995,"Indigenous",NA,NA
+1995,"Two or more race",NA,NA
+1996,"Total",23.6,-0.17
+1996,"White",25.9,-0.2
+1996,"Black",13.8,-0.42
+1996,"Hispanic",9.3,-0.4
+1996,"Asian",NA,NA
+1996,"Pacific Islander",NA,NA
+1996,"Indigenous",NA,NA
+1996,"Two or more race",NA,NA
+1997,"Total",23.9,-0.16
+1997,"White",26.2,-0.19
+1997,"Black",13.3,-0.41
+1997,"Hispanic",10.3,-0.33
+1997,"Asian",NA,NA
+1997,"Pacific Islander",NA,NA
+1997,"Indigenous",NA,NA
+1997,"Two or more race",NA,NA
+1998,"Total",24.4,-0.16
+1998,"White",26.6,-0.19
+1998,"Black",14.8,-0.42
+1998,"Hispanic",11,-0.33
+1998,"Asian",NA,NA
+1998,"Pacific Islander",NA,NA
+1998,"Indigenous",NA,NA
+1998,"Two or more race",NA,NA
+1999,"Total",25.2,-0.16
+1999,"White",27.7,-0.19
+1999,"Black",15.5,-0.43
+1999,"Hispanic",10.9,-0.33
+1999,"Asian",NA,NA
+1999,"Pacific Islander",NA,NA
+1999,"Indigenous",NA,NA
+1999,"Two or more race",NA,NA
+2000,"Total",25.6,-0.16
+2000,"White",28.1,-0.19
+2000,"Black",16.6,-0.44
+2000,"Hispanic",10.6,-0.32
+2000,"Asian",NA,NA
+2000,"Pacific Islander",NA,NA
+2000,"Indigenous",NA,NA
+2000,"Two or more race",NA,NA
+2001,"Total",26.1,-0.16
+2001,"White",28.6,-0.19
+2001,"Black",16.1,-0.43
+2001,"Hispanic",11.2,-0.32
+2001,"Asian",NA,NA
+2001,"Pacific Islander",NA,NA
+2001,"Indigenous",NA,NA
+2001,"Two or more race",NA,NA
+2002,"Total",26.7,-0.11
+2002,"White",29.4,-0.14
+2002,"Black",17.2,-0.31
+2002,"Hispanic",11.1,-0.21
+2002,"Asian",NA,NA
+2002,"Pacific Islander",NA,NA
+2002,"Indigenous",NA,NA
+2002,"Two or more race",NA,NA
+2003,"Total",27.2,-0.11
+2003,"White",30,-0.14
+2003,"Black",17.4,-0.31
+2003,"Hispanic",11.4,-0.21
+2003,"Asian",50,-0.67
+2003,"Pacific Islander",27,-2.56
+2003,"Indigenous",12.6,-1.3
+2003,"Two or more race",22,-1.17
+2004,"Total",27.7,-0.11
+2004,"White",30.6,-0.14
+2004,"Black",17.7,-0.31
+2004,"Hispanic",12.1,-0.21
+2004,"Asian",49.7,-0.66
+2004,"Pacific Islander",32.4,-2.81
+2004,"Indigenous",14.3,-1.36
+2004,"Two or more race",21.8,-1.13
+2005,"Total",27.7,-0.23
+2005,"White",30.6,-0.29
+2005,"Black",17.6,-0.45
+2005,"Hispanic",12,-0.31
+2005,"Asian",50.4,-0.93
+2005,"Pacific Islander",24.6,-3.67
+2005,"Indigenous",14.5,-1.51
+2005,"Two or more race",23.2,-1.19
+2006,"Total",28,-0.2
+2006,"White",31,-0.25
+2006,"Black",18.6,-0.47
+2006,"Hispanic",12.4,-0.32
+2006,"Asian",50,-1.06
+2006,"Pacific Islander",26.9,-3.42
+2006,"Indigenous",12.9,-1.6
+2006,"Two or more race",23.1,-1.28
+2007,"Total",28.7,-0.21
+2007,"White",31.8,-0.27
+2007,"Black",18.7,-0.51
+2007,"Hispanic",12.7,-0.31
+2007,"Asian",52.5,-1.03
+2007,"Pacific Islander",23.8,-3.3
+2007,"Indigenous",13.1,-1.24
+2007,"Two or more race",23.7,-1.3
+2008,"Total",29.4,-0.21
+2008,"White",32.6,-0.26
+2008,"Black",19.7,-0.51
+2008,"Hispanic",13.3,-0.29
+2008,"Asian",52.9,-0.97
+2008,"Pacific Islander",28.4,-2.86
+2008,"Indigenous",14.9,-1.52
+2008,"Two or more race",24.4,-1.36
+2009,"Total",29.5,-0.21
+2009,"White",32.9,-0.26
+2009,"Black",19.4,-0.45
+2009,"Hispanic",13.2,-0.34
+2009,"Asian",52.8,-0.95
+2009,"Pacific Islander",28.3,-2.68
+2009,"Indigenous",17.5,-2.08
+2009,"Two or more race",25.5,-1.34
+2010,"Total",29.9,-0.19
+2010,"White",33.2,-0.24
+2010,"Black",20,-0.51
+2010,"Hispanic",13.9,-0.31
+2010,"Asian",52.8,-1.09
+2010,"Pacific Islander",25.6,-2.89
+2010,"Indigenous",16,-1.77
+2010,"Two or more race",25.3,-1.3
+2011,"Total",30.4,-0.19
+2011,"White",34,-0.24
+2011,"Black",20.2,-0.5
+2011,"Hispanic",14.1,-0.34
+2011,"Asian",50.8,-0.96
+2011,"Pacific Islander",22.1,-2.73
+2011,"Indigenous",16.1,-1.73
+2011,"Two or more race",27.4,-1.27
+2012,"Total",30.9,-0.21
+2012,"White",34.5,-0.27
+2012,"Black",21.4,-0.53
+2012,"Hispanic",14.5,-0.35
+2012,"Asian",51.9,-0.94
+2012,"Pacific Islander",24.5,-2.75
+2012,"Indigenous",16.7,-1.82
+2012,"Two or more race",27.1,-1.34
+2013,"Total",31.7,-0.21
+2013,"White",35.2,-0.26
+2013,"Black",22,-0.49
+2013,"Hispanic",15.1,-0.34
+2013,"Asian",53.9,-0.93
+2013,"Pacific Islander",25.6,-2.66
+2013,"Indigenous",15.4,-1.72
+2013,"Two or more race",30.6,-1.35
+2014,"Total",32,-0.27
+2014,"White",35.6,-0.35
+2014,"Black",22.8,-0.66
+2014,"Hispanic",15.2,-0.39
+2014,"Asian",52.7,-1.02
+2014,"Pacific Islander",22.3,-3.27
+2014,"Indigenous",13.8,-1.43
+2014,"Two or more race",31.2,-1.81
+2015,"Total",32.5,-0.22
+2015,"White",36.2,-0.28
+2015,"Black",22.9,-0.52
+2015,"Hispanic",15.5,-0.31
+2015,"Asian",54.4,-0.87
+2015,"Pacific Islander",22.8,-2.39
+2015,"Indigenous",19.8,-1.32
+2015,"Two or more race",30.6,-1.52
+2016,"Total",33.4,-0.24
+2016,"White",37.3,-0.31
+2016,"Black",23.5,-0.46
+2016,"Hispanic",16.4,-0.4
+2016,"Asian",56.4,-0.89
+2016,"Pacific Islander",27.5,-2.92
+2016,"Indigenous",16.8,-1.39
+2016,"Two or more race",30.6,-1.52

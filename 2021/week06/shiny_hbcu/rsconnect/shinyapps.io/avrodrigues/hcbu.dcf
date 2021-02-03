@@ -1,0 +1,12 @@
+name: hcbu
+title: hcbu
+username:
+account: avrodrigues
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3575877
+bundleId: 4176733
+url: https://avrodrigues.shinyapps.io/hcbu/
+when: 1612374162.69585
+asMultiple: FALSE
+asStatic: FALSE

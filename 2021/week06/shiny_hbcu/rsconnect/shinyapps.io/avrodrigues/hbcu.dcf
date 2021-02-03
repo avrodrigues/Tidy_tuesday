@@ -1,0 +1,12 @@
+name: hbcu
+title: hbcu
+username:
+account: avrodrigues
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3575989
+bundleId: 4176804
+url: https://avrodrigues.shinyapps.io/hbcu/
+when: 1612375097.45154
+asMultiple: FALSE
+asStatic: FALSE

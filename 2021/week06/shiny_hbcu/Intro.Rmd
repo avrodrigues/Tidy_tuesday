@@ -1,0 +1,16 @@
+---
+title: "Intro"
+author: "Arthur Rodrigues"
+date: "03/02/2021"
+output: html_document
+---
+
+This site explores two datasets provided by the [National Center for Education Statistics (NCES)](https://nces.ed.gov/). In the first interactive plot, you will see the the percent of ethnic groups population which attained a degree in High School or College between 1980-2016. In the second interactive graph, you will see the number of students enrolled in Historically Black Colleges and Universities between 1976-2015.
+
+This site was build as submission to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) week 06 2021. You can see the source code [here](https://github.com/avrodrigues/Tidy_tuesday/tree/main/2021/week06).
+
+Plots of degrees attainment was inspired in the post of [Jack Davidson](https://jack-davison.github.io/posts/2021-02-02-tidytuesday-2021-week-6-hbcu-enrollment-an-ode-to-data-cleaning/).
+
+author: [@avrodrigues_](https://twitter.com/avrodrigues_) | #TidyTuesday | source: [Data.World](https://data.world/nces/hbcu-fall-enrollment-1976-2015) & [Data.World](https://data.world/nces/high-school-completion-and-bachelors-degree-attainment)
+
+
