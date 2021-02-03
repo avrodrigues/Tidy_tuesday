@@ -10,6 +10,11 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
+### Week 06 - Historically Black Colleges and Universities
+[A shiny app]( https://avrodrigues.shinyapps.io/hbcu/) to explore the degree attainement among ethinc groups and enrollments in HBCU.
+
+![](/2021/week06/hbcu.gif)
+
 ### Week 05 - Break Free From Plastic
 Plastic polltion found by volunteers in each continent
 
