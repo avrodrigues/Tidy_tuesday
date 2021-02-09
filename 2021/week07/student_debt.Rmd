@@ -1,0 +1,126 @@
+---
+title: "Whealth and Icnome "
+author: "Arthur Rodrigues"
+date: "09/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Income and Wealth
+
+
+```{r pkg}
+# Load package
+library(tidyverse)
+library(here)
+library(ggtext)
+library(showtext)
+
+showtext_opts(dpi = 300)
+showtext_auto()
+
+font_add_google("Alice")
+font_add_google("Inter")
+font_add_google("Lato")
+
+```
+
+I choose to use the student debt data among all datasets avalible this week
+```{r data}
+student_debt <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-09/student_debt.csv')
+
+```
+```{r save_dir}
+
+# create directory
+if(!dir.exists(here("2021", "week07"))) dir.create(here("2021", "week07"))
+# create directory to save progress
+prog.dir <- here("2021", "week07", "progress")
+if(!dir.exists(prog.dir)) dir.create(prog.dir)
+
+```
+
+```{r plot_progress}
+
+col.race <- c("#712695", "#229F5C", "#E0B930")
+bg.col <- "#f5f7f5"
+grid.col <- "#bccbc0"
+
+plot_st_debt <- 
+ggplot(student_debt, aes(y = as.factor(year), x = loan_debt_pct)) +
+  geom_line(aes(group = year), size = 2, alpha = 0.5, color = "grey50") +
+  geom_point(aes(color = race), size = 4) +
+  scale_color_manual(values = col.race, name = "") +
+  scale_x_continuous(labels = scales::label_percent(), limits = c(0,0.5)) +
+  labs(title = "Percentage of families with student debt\nby race in USA", 
+       subtitle = "The percentage of families with student debt has grown over the past few decades in all\nraces. Also the difference among races has grown.") +
+  theme_minimal() +
+  theme(title = element_text(family = "Alice", size = 16),
+        plot.subtitle = element_text(family = "Inter", size = 9),
+        plot.title.position = "plot",
+        axis.title = element_blank(),
+        axis.text = element_text(family = "Lato", size = 10),
+        plot.margin = margin(20,20,20,20), 
+        plot.background = element_rect(fill = bg.col, color = bg.col),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.major.y = element_line(color = grid.col, linetype = 3), 
+        legend.position = "top", 
+        legend.margin = margin(10,0,0,0),
+        legend.text = element_text(family = "Lato", size = 9)
+        )
+
+ggsave(here(prog.dir,  paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")),
+       plot_st_debt, 
+       width = 6, 
+       height = 6)
+
+```
+
+```{r save_final}
+
+ggsave(here("2021", "week07", "student_debt.png"),
+       plot_st_debt, 
+       width = 6, 
+       height = 6)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
