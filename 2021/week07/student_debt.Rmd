@@ -56,14 +56,16 @@ ggplot(student_debt, aes(y = as.factor(year), x = loan_debt_pct)) +
   scale_color_manual(values = col.race, name = "") +
   scale_x_continuous(labels = scales::label_percent(), limits = c(0,0.5)) +
   labs(title = "Percentage of families with student debt\nby race in USA", 
-       subtitle = "The percentage of families with student debt has grown over the past few decades in all\nraces. Also the difference among races has grown.") +
+       subtitle = "The percentage of families with student debt has grown over the past few decades in all\nraces. Also the difference among races has grown.", 
+       caption = "@avrodrigues_ | #TidyTuesday | source: Urban Institute") +
   theme_minimal() +
   theme(title = element_text(family = "Alice", size = 16),
         plot.subtitle = element_text(family = "Inter", size = 9),
+        plot.caption = element_text(family = "Lato", size = 6),
         plot.title.position = "plot",
         axis.title = element_blank(),
         axis.text = element_text(family = "Lato", size = 10),
-        plot.margin = margin(20,20,20,20), 
+        plot.margin = margin(20,20,10,20), 
         plot.background = element_rect(fill = bg.col, color = bg.col),
         panel.grid.minor.x = element_blank(),
         panel.grid.major.y = element_line(color = grid.col, linetype = 3), 
@@ -86,41 +88,5 @@ ggsave(here("2021", "week07", "student_debt.png"),
        width = 6, 
        height = 6)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
