@@ -10,10 +10,17 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
+### Week 10 - Superbowl Ads
+Frequency of content type in the superbowl ads since 2000
+
+![Superbowl Ads](/2021/week10/superbowl.png)
+---
+
 ### Week 08 - DuBois Challenge
 Re-creation of a W.E.B DuBois charts 
 
 ![DuBois Challenge](/2021/week08/dubois.png)
+---
 
 ### Week 07 - Wealth and income over time
 Percentage of families with student debt by race in USA
