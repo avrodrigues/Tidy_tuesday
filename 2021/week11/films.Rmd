@@ -1,0 +1,57 @@
+---
+title: "Untitled"
+author: "Arthur Rodrigues"
+date: "09/03/2021"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE}
+# load packages
+library(tidyverse)
+library(here)
+library(ragg)
+library(cowplot)
+library(ggridges)
+
+```
+
+
+```{r data}
+
+raw_bechdel <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-09/raw_bechdel.csv')
+movies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-09/movies.csv')
+
+
+glimpse(raw_bechdel)
+glimpse(movies)
+
+
+mov_bechdel <- 
+raw_bechdel %>% 
+  select(imdb_id, rating) %>% 
+  inner_join(movies, by = "imdb_id")
+
+rate_director <-
+  mov_bechdel %>% 
+  group_by(director) %>% 
+  summarise(n = n(), 
+            mean.rate = sum(imdb_rating)/n) %>% 
+  filter(n > 3) %>% 
+  drop_na() %>% 
+  arrange(desc(mean.rate)) 
+
+top_director <-
+  bind_rows(head(rate_director, 10))
+
+mov_bechdel %>% 
+  filter(director %in% top_director$director) %>% 
+  ggplot(aes(x = rating, y = director)) +
+  geom_density_ridges2()
+```
+
