@@ -10,6 +10,11 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
+### Week 11 - The Bechdel Test
+
+![Bechdel Rule](/2021/week11/the_rule.png)
+---
+
 ### Week 10 - Superbowl Ads
 Frequency of content type in the superbowl ads since 2000
 
