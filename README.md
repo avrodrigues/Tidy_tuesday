@@ -10,6 +10,10 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
+### Week 12 - Video Games
+![Video Games](/2021/week12/games.png)
+
+
 ### Week 11 - The Bechdel Test
 
 ![Bechdel Rule](/2021/week11/the_rule.png)
