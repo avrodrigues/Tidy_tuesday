@@ -117,7 +117,7 @@ ggplot(top_10,
       panel.grid.minor.x = element_line(color = secondary),
       panel.background = element_rect(fill = "transparent"),
       plot.background = element_rect(
-        fill = back2
+        fill = back2, color = NA
       )
       
     )
@@ -141,17 +141,33 @@ g.plot +
         plot.margin = margin(20,20,20,20)
         )
 
+
+# save progress -----------------------------------------------------------
+
+# agg_png(
+#  here("2021",
+#       "week12", 
+#       "progress", 
+#       paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")),
+#  width = 6,
+#  height = 4,
+#  units = "in",
+#  res = 300
+# )
+# g.plot.title
+# dev.off()
+
+
+# Save final plot ---------------------------------------------------------
+
 agg_png(
- here("2021",
-      "week12", 
-      "progress", 
-      paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")),
- width = 6,
- height = 4,
- units = "in",
- res = 300
+  here("2021",
+       "week12", 
+       "games.png"),
+  width = 6,
+  height = 4,
+  units = "in",
+  res = 300
 )
 g.plot.title
 dev.off()
-
-
