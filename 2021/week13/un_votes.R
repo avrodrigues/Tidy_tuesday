@@ -5,6 +5,7 @@ library(tidyverse)
 library(here)
 library(ragg)
 library(ggfx)
+library(lubridate)
 
 
 # load and process data ---------------------------------------------------
@@ -108,18 +109,18 @@ ggplot(
   
 # save progress -----------------------------------------------------------
 
-agg_png(
-here("2021",
-     "week13", 
-     "progress", 
-     paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")),
-width = 6,
-height = 9,
-units = "in",
-res = 300
-)
-g.plot
-dev.off()
+# agg_png(
+# here("2021",
+#      "week13", 
+#      "progress", 
+#      paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")),
+# width = 6,
+# height = 9,
+# units = "in",
+# res = 300
+# )
+# g.plot
+# dev.off()
 
 
 # save plot ----------------------------------------------------------------
