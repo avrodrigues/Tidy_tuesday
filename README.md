@@ -10,7 +10,7 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
-## Week 14 - Brazil´s votes in United Nation
+## Week 14 - Bias in makeup shades
 ![Bias in makeup shades](/2021/week14/makeup.png)
 
 
