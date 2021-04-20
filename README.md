@@ -10,11 +10,17 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
-## Week 14 - Bias in makeup shades
+### Week 17 - Netflix
+![Netflix titles release along year](/2021/week15/netflix.png)
+
+### Week 15 - Soybean use and production
+![Soybean use and production](/2021/week15/br_soja.png)
+
+### Week 14 - Bias in makeup shades
 ![Bias in makeup shades](/2021/week14/makeup.png)
 
 
-## Week 13 - Brazil´s votes in United Nation
+### Week 13 - Brazil´s votes in United Nation
 ![UN votes](/2021/week13/un_votes.png)
 
 
