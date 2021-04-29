@@ -167,8 +167,8 @@ agg_png(
   here("2021",
        "week18", 
        "departures.png"),
-  width = 5,
-  height = 7,
+  width = 6,
+  height = 8,
   units = "in",
   res = 300
 )
