@@ -10,6 +10,9 @@ Site: [avrodrigues.github.io/avr_site/](https://avrodrigues.github.io/avr_site/)
 ---
 
 ## 2021
+### Week 18 - Departures in S&P 1500 firms 
+![CEO departures in the S&P 1500 firms"](/2021/week18/departures.png)
+
 ### Week 17 - Netflix
 ![Netflix titles release along year](/2021/week17/netflix.png)
 

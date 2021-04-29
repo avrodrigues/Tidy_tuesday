@@ -130,6 +130,16 @@ ggdraw() +
     hjust = 0,
     lineheight = 0.85
   ) +
+  draw_text(
+    "@avrodrigues_ | Source: Gentry et al. (2021). Strategic Management Society",
+    x = 0.5, 
+    y = 0.02,
+    family = "Inter",
+    size = 5,
+    color = "grey98",
+    hjust = 0.5,
+    lineheight = 0.85
+  ) +
   theme(
     plot.background = element_rect(fill = "#034e5e", color = NA)
   ) 
